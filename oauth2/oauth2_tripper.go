@@ -1,7 +1,7 @@
 package oauth2
 
 import (
-	"github.com/stretchr/gomniauth/common"
+	"github.com/outrightmental/go-omniauth/common"
 	"net/http"
 )
 

@@ -2,8 +2,8 @@ package gomniauth
 
 import (
 	"fmt"
-	"github.com/stretchr/gomniauth/common"
-	"github.com/stretchr/objx"
+	"github.com/outrightmental/go-omniauth/common"
+	"github.com/outrightmental/go-objx"
 )
 
 // ProviderPublicData gets the public data for the specified provider.

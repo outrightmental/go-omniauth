@@ -2,7 +2,7 @@ package common
 
 import (
 	"fmt"
-	"github.com/stretchr/objx"
+	"github.com/outrightmental/go-objx"
 	"strconv"
 )
 

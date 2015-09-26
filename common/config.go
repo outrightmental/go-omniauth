@@ -1,7 +1,7 @@
 package common
 
 import (
-	"github.com/stretchr/objx"
+	"github.com/outrightmental/go-objx"
 )
 
 // Config represent data that describes information needed

@@ -1,7 +1,7 @@
 package oauth2
 
 import (
-	"github.com/stretchr/gomniauth/common"
+	"github.com/outrightmental/go-omniauth/common"
 )
 
 // OAuth2TripperFactory provides the NewTripper function that creates a Tripper object for the OAuth2

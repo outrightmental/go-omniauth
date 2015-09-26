@@ -6,23 +6,23 @@ Authentication framework for Go applications.
 
   * OAuth2 today
   * Supports other protocols too
-  * [Multiple providers](https://github.com/stretchr/gomniauth/tree/master/providers) - Supports Google, GitHub and Facebook and [more](https://github.com/stretchr/gomniauth/tree/master/providers)
+  * [Multiple providers](https://github.com/outrightmental/go-omniauth/tree/master/providers) - Supports Google, GitHub and Facebook and [more](https://github.com/outrightmental/go-omniauth/tree/master/providers)
   * Easily extensible
-  * [Example web app](https://github.com/stretchr/gomniauth/tree/master/example) to copy
+  * [Example web app](https://github.com/outrightmental/go-omniauth/tree/master/example) to copy
   * Works beautifully with [Goweb](https://github.com/stretchr/goweb)
   * Fully [TDD](http://en.wikipedia.org/wiki/Test-driven_development)
 
 ## Documentation
 
-  * Jump right into the [API Documentation](http://godoc.org/github.com/stretchr/gomniauth)
+  * Jump right into the [API Documentation](http://godoc.org/github.com/outrightmental/go-omniauth)
 
 ## Get started
 
 Install Gomniauth by doing:
 
-    go get github.com/stretchr/gomniauth
+    go get github.com/outrightmental/go-omniauth
 
-Check out the [example web app code](https://github.com/stretchr/gomniauth/tree/master/example) to see how to use Gomniauth using [Goweb](https://github.com/stretchr/goweb).
+Check out the [example web app code](https://github.com/outrightmental/go-omniauth/tree/master/example) to see how to use Gomniauth using [Goweb](https://github.com/stretchr/goweb).
 
 ## Contributing
 
@@ -49,7 +49,7 @@ A provider represents an authentication service that will be available to your u
 
 The callback should be an absolute URL to your application and should include the provider name in some way.
 
-For example, in the [example web app](https://github.com/stretchr/gomniauth/tree/master/example) we used the following format for callbacks:
+For example, in the [example web app](https://github.com/outrightmental/go-omniauth/tree/master/example) we used the following format for callbacks:
 
     http://mydomain.com/auth/{provider}/callback
 
@@ -65,7 +65,7 @@ You can access a list of the providers you are supporting by calling the `gomnia
 
 ### Redirecting them to the login page
 
-Once a provider has been chosen, you must redirect them to be authenticated.  You can do this by using the `gomniauth.Provider` function, that will return a [Provider](http://godoc.org/github.com/stretchr/gomniauth/common#Provider) by name.
+Once a provider has been chosen, you must redirect them to be authenticated.  You can do this by using the `gomniauth.Provider` function, that will return a [Provider](http://godoc.org/github.com/outrightmental/go-omniauth/common#Provider) by name.
 
 So if the user chooses to login using Github, you would do:
 
@@ -106,7 +106,7 @@ The provider will then do the work in the background to complete the authenticat
 
 If you then want some information about the user who just authenticated, you can call the `GetUser` method on the provider (passing in the `creds` from the `CompleteAuth` method.)
 
-The [User](https://github.com/stretchr/gomniauth/blob/master/common/user.go) you get back will give you access to the common user data you will need (like name, email, avatar URL etc) and also an `objx.Map` of `Data()` that contains everything else.
+The [User](https://github.com/outrightmental/go-omniauth/blob/master/common/user.go) you get back will give you access to the common user data you will need (like name, email, avatar URL etc) and also an `objx.Map` of `Data()` that contains everything else.
 
 ### Caching in
 

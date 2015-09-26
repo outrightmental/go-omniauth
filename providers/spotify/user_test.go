@@ -3,10 +3,10 @@ package spotify
 import (
 	"testing"
 
-	"github.com/stretchr/gomniauth/common"
-	"github.com/stretchr/gomniauth/oauth2"
-	"github.com/stretchr/gomniauth/test"
-	"github.com/stretchr/objx"
+	"github.com/outrightmental/go-omniauth/common"
+	"github.com/outrightmental/go-omniauth/oauth2"
+	"github.com/outrightmental/go-omniauth/test"
+	"github.com/outrightmental/go-objx"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

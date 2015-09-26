@@ -3,8 +3,8 @@ package oauth2
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/stretchr/gomniauth/common"
-	"github.com/stretchr/objx"
+	"github.com/outrightmental/go-omniauth/common"
+	"github.com/outrightmental/go-objx"
 	"io/ioutil"
 	"mime"
 	"net/http"

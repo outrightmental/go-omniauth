@@ -2,8 +2,8 @@ package oauth2
 
 import (
 	"github.com/stretchr/codecs/services"
-	"github.com/stretchr/gomniauth/common"
-	"github.com/stretchr/objx"
+	"github.com/outrightmental/go-omniauth/common"
+	"github.com/outrightmental/go-objx"
 	"io/ioutil"
 )
 

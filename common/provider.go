@@ -2,7 +2,7 @@ package common
 
 import (
 	"github.com/stretchr/codecs"
-	"github.com/stretchr/objx"
+	"github.com/outrightmental/go-objx"
 	"net/http"
 )
 

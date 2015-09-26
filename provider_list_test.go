@@ -1,8 +1,8 @@
 package gomniauth
 
 import (
-	"github.com/stretchr/gomniauth/common"
-	"github.com/stretchr/gomniauth/test"
+	"github.com/outrightmental/go-omniauth/common"
+	"github.com/outrightmental/go-omniauth/test"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"testing"

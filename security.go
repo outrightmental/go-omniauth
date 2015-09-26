@@ -1,7 +1,7 @@
 package gomniauth
 
 import (
-	"github.com/stretchr/gomniauth/common"
+	"github.com/outrightmental/go-omniauth/common"
 )
 
 // SetSecurityKey sets the global security key to be used for signing the state variable

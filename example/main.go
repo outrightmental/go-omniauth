@@ -2,6 +2,6 @@ package main
 
 /*
 
-	This has moved to https://github.com/stretchr/gomniauth/tree/master/example/goweb
+	This has moved to https://github.com/outrightmental/go-omniauth/tree/master/example/goweb
 
 */

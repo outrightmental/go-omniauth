@@ -1,8 +1,8 @@
 package gomniauth
 
 import (
-	"github.com/stretchr/gomniauth/common"
-	"github.com/stretchr/objx"
+	"github.com/outrightmental/go-omniauth/common"
+	"github.com/outrightmental/go-objx"
 )
 
 // Provider gets a provider by name from the

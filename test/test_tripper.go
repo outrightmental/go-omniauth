@@ -1,7 +1,7 @@
 package test
 
 import (
-	"github.com/stretchr/gomniauth/common"
+	"github.com/outrightmental/go-omniauth/common"
 	"github.com/stretchr/testify/mock"
 	"net/http"
 )

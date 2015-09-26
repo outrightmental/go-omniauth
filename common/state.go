@@ -1,7 +1,7 @@
 package common
 
 import (
-	"github.com/stretchr/objx"
+	"github.com/outrightmental/go-objx"
 )
 
 // State represents a map of state arguments that can be used to

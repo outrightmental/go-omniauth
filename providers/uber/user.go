@@ -1,8 +1,8 @@
 package uber
 
 import (
-	"github.com/stretchr/gomniauth/common"
-	"github.com/stretchr/objx"
+	"github.com/outrightmental/go-omniauth/common"
+	"github.com/outrightmental/go-objx"
 	"strconv"
 )
 

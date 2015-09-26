@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/stretchr/gomniauth"
-	"github.com/stretchr/gomniauth/providers/facebook"
-	"github.com/stretchr/gomniauth/providers/github"
-	"github.com/stretchr/gomniauth/providers/google"
-	"github.com/stretchr/objx"
+	"github.com/outrightmental/go-omniauth"
+	"github.com/outrightmental/go-omniauth/providers/facebook"
+	"github.com/outrightmental/go-omniauth/providers/github"
+	"github.com/outrightmental/go-omniauth/providers/google"
+	"github.com/outrightmental/go-objx"
 	"io"
 	"net/http"
 )

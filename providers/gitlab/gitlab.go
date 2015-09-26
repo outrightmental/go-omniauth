@@ -3,10 +3,10 @@ package gitlab
 import (
 	"net/http"
 
-	"github.com/stretchr/gomniauth"
-	"github.com/stretchr/gomniauth/common"
-	"github.com/stretchr/gomniauth/oauth2"
-	"github.com/stretchr/objx"
+	"github.com/outrightmental/go-omniauth"
+	"github.com/outrightmental/go-omniauth/common"
+	"github.com/outrightmental/go-omniauth/oauth2"
+	"github.com/outrightmental/go-objx"
 )
 
 // Constants
